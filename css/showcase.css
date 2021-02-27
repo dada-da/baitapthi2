@@ -81,3 +81,7 @@
     padding-top: 12px;
     padding-bottom: 10px;
 }
+#footer p a{
+    color:  #c71585;
+    text-decoration-line: none;
+}
