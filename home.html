@@ -22,7 +22,88 @@
                     <button type="submit" class="">go</button>
                 </form>
             </div>
-            <div class="col-md-12">
+            <div id="nav-bar" class="col-md-12 nav-bar">
+                <p class=""><a href="#">Home </a><i class="fas fa-arrow-right"></i><a href="home.html"> Show case</a></p>
+            </div>
+            <div class="col-md-2">
+                <ul id="sidebar-nav" class="nav nav-pills nav-stacked">
+                    <li><a href="#">Home</a></li>
+                    <hr/>
+                    <li><a href="#">Art in Scotland</a></li>
+                    <hr/>
+                    <li id="show-case"><a class="active" href="home.html">Showcase</a></li>
+                    <hr/>
+                    <li><a href="#">What's on</a></li>
+                    <hr/>
+                    <li><a href="#">International</a></li>
+                    <hr/>
+                    <li><a href="#">Latest News</a></li>
+                    <hr/>
+                    <li><a href="#">Information</a></li>
+                    <hr/>
+                    <li><a href="#">Professional</a></li>
+                    <hr/>
+                    <li><a href="#">16 24 explore</a></li>
+                    <hr/>
+                    <li><a href="#">Jobs</a></li>
+                    <hr/>
+                    <li><a href="#">Funding</a></li>
+                    <hr/>
+                    <li><a href="#">About us</a></li>
+                    <hr/>
+                    <li><a href="#">Contact us</a></li>
+                    <hr/>
+                    <li><a href="#">Web help</a></li>
+                    <hr/>
+                    <li><a href="#">Site map</a></li>
+                </ul>
+            </div>
+            <div class="col-md-8 show-gif">
+                <img src="imgs/vlcsnap-2021-02-26-19h40m24s021.png" height="158" width="492"/>
+                <h1 style="font-weight: bold">Showcase</h1>
+                <p style="padding-bottom: 10px;">Showcasing examples of the fine work produced by artist and arts organisations funded by the Scottish Arts Council.</p>
+                <p style="padding-bottom: 10px;">The showcase contains images, text, audio and video clips across the different artforms including visual arts, crafts, literature, drama. dance and music</p>
+                <p style="padding-bottom: 92px;">Search the showcase for specific artform examples by clicking on the drop down box.</p>
+            </div>
+            <div class="col-md-2 show-search">
+                <p class="show-title">Showcase search</p>
+                <label style="margin-right: 45px;" for="media">Media</label>
+                <select class="select-showcase" name="media" id="media">
+                    <option value="volvo">All types</option>
+                    <option value="saab">A</option>
+                    <option value="mercedes">B</option>
+                </select>
+
+                <label style="margin-right: 45px;" for="artform">Artforms</label>
+                <select class="select-showcase" name="artform" id="artform">
+                    <option value="volvo">All artforms</option>
+                    <option value="saab">A</option>
+                    <option value="mercedes">B</option>
+                </select>
+
+                <label style="margin-right: 45px;" for="theme">Theme</label>
+                <select class="select-showcase" name="theme" id="theme">
+                    <option value="volvo">All themes</option>
+                    <option value="saab">A</option>
+                    <option value="mercedes">B</option>
+                </select>
+                <div class="form-group">
+                    <label>Keyword(s)</label>
+                    <input type="text" class="form-control">
+                </div>
+                <button style="margin-bottom: 16px;" type="submit" class="btn btn-default">Search</button>
+            </div>
+            <div class="col-md-2">
+                <a href="#"> <img style="height: auto;width: 218px;margin-left: -15px;" src="imgs/highlight.jpg" height="78" width="174"/></a>
+                <hr style="width: 192px;border-top: 4px solid #daddb4;"/>
+            </div>
+            <div class="col-md-12 footer">
+                <img style="margin-left: 780px;" src="imgs/top.gif" height="19" width="116"  onclick="topFunction()"/>
+                <img src="imgs/print.gif" height="19" width="116" onclick="window.print()"/>
+                <img src="imgs/send.gif" height="19" width="116"/>
+            </div>
+            <div class="col-md-12 footer-2">
+                <a href="#"><img src="imgs/lotto.gif" height="60" width="205"/></a>
 
             </div>
         </div>
